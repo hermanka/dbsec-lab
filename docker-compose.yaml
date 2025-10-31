@@ -1,0 +1,23 @@
+version: "3.3"
+services:
+  client:
+    container_name: client-db
+    build: .
+    ports:
+      - 7681:7681
+    networks:
+      - the_network
+      
+  mysql-db:
+    container_name: server-db
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 'toor'
+    networks:
+      - the_network
+
+networks:
+  the_network:
+    name: labnet
+    driver: bridge
