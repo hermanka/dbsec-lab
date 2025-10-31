@@ -19,5 +19,5 @@ Just another lab for practice.
 
 ```mermaid
 sequenceDiagram
-Host->>client-one: localhost:7681
+Host->>client-db: localhost:7681
 client-db->>server-db: 3306
