@@ -14,7 +14,10 @@ Just another lab for practice.
 `http://localhost:7681`
 - Login to MySQL server
 `mysql -uroot -hserver-db -p`
+or
+`mysql -uroot -hserver-db -p --ssl=false`
 - Use password : toor
+
 
 ## The architecture
 
