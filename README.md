@@ -14,6 +14,7 @@ Just another lab for practice.
 `http://localhost:7681`
 - Login to MySQL server
 `mysql -uroot -hserver-db -p`
+- Use password : toor
 
 ## The architecture
 
